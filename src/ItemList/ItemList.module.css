@@ -1,0 +1,24 @@
+.listItem {
+  width: cal(100%-16px);
+  height: 50px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 8px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  height: 24px;
+  margin-left: auto;
+}
