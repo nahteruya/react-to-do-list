@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray--400);
+  padding: 16px;
+  gap: 12px;
+  border-radius: 8px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  color: var(--gray-100);
+}
+
+.container .checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.container p {
+  flex: 1;
+}
